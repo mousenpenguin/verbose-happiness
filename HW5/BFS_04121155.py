@@ -8,46 +8,33 @@ class Graph:
     def addEdge(self,u,v): 
         self.graph[u].append(v)
     
-    
+
     def BFS(self, s):
-        visited = []
+        final = []
         queue = [s]
+        visited = defaultdict(list)   
+        visited[s] = True
 
         while queue:
-            s = queue.pop(0)
-            for u in graph[s]:
-                if i not in visited:
-                    visited.append(i)
-                    queue.append(i)
+            volume = queue.pop(0)
+            final.append(volume)
+            for t in self.graph[volume]:
+                if visited[t] is not True:   
+                    visited[t] = True
+                    queue.append(t)
 
-        return visited
-
+        return final
+    
     def DFS(self, s):
-        visited = [s]
+        final = []
         stack = [s]
-
-        while stack:
-            s = stack[-1]
-            if s not in visited:
-                visited.extend(s)
-            remove_from_stack = True
-
-            for next in self[s]:
-                if next not in visited:
-                    stack.extend(next)
-                    remove_from_stack = False
-                    break
-            if remove_from_stack:
-                stack.pop()
-
-        return visited
-
-
-
-        #https://www.geeksforgeeks.org/difference-between-bfs-and-dfs/
-
-        #https://www.educative.io/edpresso/dfs-vs-bfs
-
-        #http://mishadoff.com/blog/dfs-on-binary-tree-array/
-
-        #ppt
+        visited = defaultdict(list)    
+        visited[s] = True
+        while stack:      
+            volume = stack.pop()
+            final.append(volume)
+            for i in self.graph[volume]:
+                if visited[i] is not True:   
+                    visited[i] = True
+                    stack.append(i)
+        return final
