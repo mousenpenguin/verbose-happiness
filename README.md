@@ -3,7 +3,7 @@
 
 I hope to further enhance my capabilities of Python and other data forms. With this note I plan to add weekly updates of what I have learned, and the problems that I have encountered. 
 
-**
+
 
 ## The *End of the Class* UPDATE
 
