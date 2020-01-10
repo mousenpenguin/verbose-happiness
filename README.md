@@ -47,7 +47,7 @@ Queue
 找重複值和缺失值，老師上課教了一種方式，也提供我們另外5種，我選了一種打在Leetcode，但是他說Time Limit Exceeded  
 雖然觀念是對的，但是時間太久了，詳細細節在下面的連結  
 
-[Set](https://github.com/mousenpenguin/verbose-happiness/blob/master/Leetcode/645#_Set%20Mismatch_04121155.py)
+[Set](https://github.com/mousenpenguin/verbose-happiness/blob/master/Leetcode/232%23_Implement%20Queue%20using%20Stacks_04121155.py)
 
 
 ### WEEK5
