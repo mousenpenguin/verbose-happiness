@@ -1,7 +1,13 @@
 
 # Jeff's Learning Note
 
-I hope to further enhance my capabilities of Python and other data forms. With this note I plan to add weekly updates of what I have learned, and the problems that I have encountered.
+I hope to further enhance my capabilities of Python and other data forms. With this note I plan to add weekly updates of what I have learned, and the problems that I have encountered. 
+
+**
+
+## The *End of the Class* UPDATE
+
+Being a double major, it really is a challenge for me to study for this class. My basic Python abilities were very limited, as I was also studying **計算機概論 for freshman**. So you could see how difficult it was for me to learn in this class. Alas, I have truly learned alot from this class, with a much more intimate knowledge of what goes on within the world of stacks and queue, of linked list, of DFSs, of much much more. 我真的希望我能至少**及格**，因為身為**大五**的我，以經沒有時間再等待新一學期的課了，要是這門課不幸被當，我就只能轉成輔系，之前的努力便付諸_流水了。   Thanks again to the professor and the TA for their hard work in teaching this class, you really were some of the most hardworking people I have ever have the pleasure to meet. 
 
 ## Personal Information
 
@@ -166,5 +172,8 @@ Kruskal是一種用來尋找最小生成樹(minimum spanning tree)的演算法�
 ### WEEK18
 
  - **VOTE!!!**
+
+
+
 
     
