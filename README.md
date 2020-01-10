@@ -100,7 +100,9 @@ Binary Search Tree
 （3）左、右子樹也分別為二元查找樹
 
 [Code](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW3/binary_search_tree_04121155.py)
+
 [Explain](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW3/binary_search_tree%20explain.md)
+
 [Process](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW3/binary_search_tree%20learning%20process.ipynb)
 
 
@@ -118,6 +120,7 @@ Hash Table
 是根據關鍵碼值(Key value)而直接進行訪問的數據結構。也就是說，它通過把關鍵碼值映射到表中一個位置來訪問記錄，以加快查找的速度。這個映射函數叫做散列函數(hash function)，存放記錄的數組叫做散列表。如果數對p的關鍵字是k，哈希函數為f，那麼在理想情況下，p在哈希表中的位置就是f(k)。 
 
 [Code](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW4/hash_table_04121155.py)
+
 [Explain](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW4/hash_table_%E6%B5%81%E7%A8%8B%E5%9C%96_%E6%AD%B7%E7%A8%8B_%E5%8E%9F%E7%90%86.md)
 
 
@@ -126,6 +129,7 @@ Hash Table
 Breadth-First Search  
 **廣度優先搜尋法**，是一種圖形(graph)搜索演算法。從圖的某一節點(vertex, node)開始走訪，接著走訪此一節點所有相鄰且未拜訪過的節點，由走訪過的節點繼續進行先廣後深的搜尋。以樹(tree)來說即把同一深度(level)的節點走訪完，再繼續向下一個深度搜尋，直到找到目的節點或遍尋全部節點。
 [Code](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW5/BFS_04121155.py)
+
 [Explain](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW5/BFS,DFS%20%E6%B5%81%E7%A8%8B%E5%9C%96%EF%BC%8C%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%EF%BC%8C%E5%8E%9F%E7%90%86%E8%88%87%E6%AF%94%E8%BC%83.md)
   
 
@@ -135,6 +139,7 @@ Depth-First Search
 **深度優先搜尋法**，是一種用來遍尋一個樹(tree)或圖(graph)的演算法。由樹的根(或圖的某一點當成 根)來開始探尋，先探尋邊(edge)上未搜尋的一節點(vertex or node)，並儘可能深的搜索，直到該節點的所有邊上節點都已探尋；就回溯(backtracking)到前一個節點，重覆探尋未搜尋的節點，直到找到目 的節點或遍尋全部節點。
 
 [Code](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW5/BFS_04121155.py)
+
 [Explain](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW5/BFS,DFS%20%E6%B5%81%E7%A8%8B%E5%9C%96%EF%BC%8C%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%EF%BC%8C%E5%8E%9F%E7%90%86%E8%88%87%E6%AF%94%E8%BC%83.md)
 
 
@@ -146,6 +151,7 @@ Minimum Spanning Tree
 **About Dijkstra**
 Dijkstra使用了廣度優先搜尋(BFS)解決賦權有向圖的單源最短路徑問題(shortest path)，主要是利用兩點間的權重路徑，找出各點距離起點的最短路徑。
 [Code](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW6/Dijkstra_04121155.py)
+
 [Explain](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW6/Dijkstra%E8%88%87Kruskal%20%E6%B5%81%E7%A8%8B%E5%9C%96%EF%BC%8C%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%EF%BC%8C%E5%8E%9F%E7%90%86%E8%88%87%E6%AF%94%E8%BC%83.md)
 
 
@@ -157,6 +163,7 @@ Shortest Path
 **About Kruskal**
 Kruskal是一種用來尋找最小生成樹(minimum spanning tree)的演算法。
 [Code](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW6/Dijkstra_04121155.py)
+
 [Explain](https://github.com/mousenpenguin/verbose-happiness/blob/master/HW6/Dijkstra%E8%88%87Kruskal%20%E6%B5%81%E7%A8%8B%E5%9C%96%EF%BC%8C%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%EF%BC%8C%E5%8E%9F%E7%90%86%E8%88%87%E6%AF%94%E8%BC%83.md)
 
 
